@@ -1,0 +1,55 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1735225308
+bg.gd::GDScript::-1::1734015639::0::1::::<>ParallaxBackground<>::
+bg.tscn::PackedScene::209001752053861080::1735224946::0::1::::<><>::uid://w730wg3co6vq::::res://background/background_layer_1.png<>uid://drd612dl4ryu2::::res://background/background_layer_2.png<>uid://jsp6a5oil1cl::::res://background/background_layer_3.png
+default_bus_layout.tres::AudioBusLayout::4254143336961537524::1735221883::0::1::::<><>::
+heart.gd::GDScript::-1::1735209303::0::1::::<>Node<>::
+hit_box_player.gd::GDScript::-1::1735222779::0::1::::<>Area2D<>::
+icon.svg::CompressedTexture2D::5280872022786349261::1734011461::1734011466::1::::<><>::
+life_egg.gd::GDScript::-1::1735222674::0::1::::<>Area2D<>::
+main.tscn::PackedScene::5531337542431055053::1735224945::0::1::::<><>::uid://d26jxh7avbbpw::::res://level/TX Tileset Ground.png<>uid://bsunfjbte5pte::::res://player.tscn<>uid://w730wg3co6vq::::res://background/background_layer_1.png<>uid://drd612dl4ryu2::::res://background/background_layer_2.png<>uid://jsp6a5oil1cl::::res://background/background_layer_3.png<>uid://0jlrab34464::::res://mobe/mushroom.tscn<>uid://chif5aloxupqq::::res://collection/heart.png<>uid://bx78k7mymwmye::::res://collection/heart2.png<>res://heart.gd<>uid://c4vclhsxjxtfb::::res://collection/gold_egg.tscn<>uid://bcf3f15n2244p::::res://collection/bomb_egg.tscn<>uid://cokufcuqoj2sm::::res://collection/life_egg.tscn<>uid://cmpy1uydrth4o::::res://audio/фон.mp3
+menu.gd::GDScript::-1::1735209774::0::1::::<>Node2D<>::
+menu.tscn::PackedScene::2675127515082920199::1735224946::0::1::::<><>::res://menu.gd<>uid://c8ih066j4b65::::res://bg.tscn<>res://bg.gd<>uid://cmpy1uydrth4o::::res://audio/фон.mp3<>uid://bg6vdi7hsx7xq::::res://audio/меню.mp3
+player.gd::GDScript::-1::1735221695::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::3691906149259139222::1735224946::0::1::::<><>::res://player.gd<>uid://dbgh2bx71tewn::::res://player/CharacterSheet.png<>res://hit_box_player.gd<>uid://ckl7ffmg72cwc::::res://audio/шаги.mp3<>uid://tk6l4cax3602::::res://audio/шаги 2.mp3<>uid://v4vmjjqq34xm::::res://audio/прыжок.mp3
+::res://audio/::1735222292
+NPC.mp3::AudioStreamMP3::1454425010783983603::1735189024::1735209525::1::::<><>::
+бомба.mp3::AudioStreamMP3::1594368013926332040::1735189281::1735209525::1::::<><>::
+жизнь.mp3::AudioStreamMP3::8962041411561636233::1735222274::1735222292::1::::<><>::
+Звук начисления очков .mp3::AudioStreamMP3::6721646601794861602::1735188877::1735209525::1::::<><>::
+меню.mp3::AudioStreamMP3::2872830340090545110::1735209396::1735209525::1::::<><>::
+прыжок.mp3::AudioStreamMP3::1535129645004242094::1735221105::1735221132::1::::<><>::
+фон.mp3::AudioStreamMP3::5647577883523498508::1735209049::1735209233::1::::<><>::
+шаги 2.mp3::AudioStreamMP3::1356135203470563257::1735220605::1735220617::1::::<><>::
+шаги по лесу.mp3::AudioStreamMP3::2965661141220453648::1735208761::1735209135::1::::<><>::
+шаги.mp3::AudioStreamMP3::5499390113270078094::1735220511::1735220540::1::::<><>::
+::res://background/::1734014851
+background_layer_1.png::CompressedTexture2D::1611960534869689702::1575033762::1734014851::1::::<><>::
+background_layer_2.png::CompressedTexture2D::8360595606909427867::1575033805::1734014851::1::::<><>::
+background_layer_3.png::CompressedTexture2D::669824553809297743::1575033876::1734014851::1::::<><>::
+::res://collection/::1735224946
+bomb_egg.gd::GDScript::-1::1735222433::0::1::::<>Area2D<>::
+bomb_egg.tscn::PackedScene::2538830677085523717::1735224946::0::1::::<><>::res://collection/bomb_egg.gd<>uid://dbgh2bx71tewn::::res://player/CharacterSheet.png<>uid://wylajsh20j5q::::res://audio/бомба.mp3
+egg1.png::CompressedTexture2D::569080204722457197::1735183200::1735183209::1::::<><>::
+egg2.png::CompressedTexture2D::8666492607893471865::1734098965::1734101390::1::::<><>::
+gold_egg.gd::GDScript::-1::1735221804::0::1::::<>Area2D<>::
+gold_egg.tscn::PackedScene::6851811239970781727::1735224946::0::1::::<><>::uid://dvqd4qk8u61fp::::res://collection/egg2.png<>res://collection/gold_egg.gd<>uid://c21asjlm3hv51::::res://audio/Звук начисления очков .mp3
+heart2.png::CompressedTexture2D::4068847394590324180::1735136734::1735136738::1::::<><>::
+heart.png::CompressedTexture2D::5281035471326370428::1734110990::1734110993::1::::<><>::
+life_egg.tscn::PackedScene::5777352361372956676::1735224946::0::1::::<><>::res://life_egg.gd<>uid://idwwyak02swr::::res://collection/egg1.png<>uid://d0xjrowj1pm6d::::res://audio/жизнь.mp3
+::res://level/::1734020626
+Hills.png::CompressedTexture2D::8028995128596341345::1702880062::1734012146::1::::<><>::
+TX Tileset Ground.png::CompressedTexture2D::9118944483002037744::1679813061::1734020626::1::::<><>::
+Water.png::CompressedTexture2D::786706889216922493::1640128122::1734012146::1::::<><>::
+::res://mobe/::1735224946
+Mushroom-Attack.png::CompressedTexture2D::4573693823110568586::1714396948::1734101648::1::::<><>::
+Mushroom-AttackWithStun.png::CompressedTexture2D::586761112797225421::1714396948::1734101648::1::::<><>::
+Mushroom-Die.png::CompressedTexture2D::5932176267076378549::1714396948::1734101648::1::::<><>::
+Mushroom-Hit.png::CompressedTexture2D::3076293951140927089::1714396948::1734101648::1::::<><>::
+Mushroom-Idle.png::CompressedTexture2D::6903158630340969767::1714396948::1734101648::1::::<><>::
+Mushroom-Run.png::CompressedTexture2D::5276853205171791718::1714396948::1734101648::1::::<><>::
+Mushroom-Stun.png::CompressedTexture2D::5085835558726535009::1714396948::1734101648::1::::<><>::
+mushroom.gd::GDScript::-1::1735223333::0::1::::Mobe<>CharacterBody2D<>::
+mushroom.tscn::PackedScene::52176433500326135::1735224946::0::1::::<><>::uid://c5l7aqjkor8nb::::res://mobe/Mushroom-Idle.png<>uid://b6fscl2u1nuow::::res://mobe/Mushroom-Attack.png<>res://mobe/mushroom.gd<>uid://cqruculqypubl::::res://mobe/Mushroom-Die.png<>uid://chgfabslbfrec::::res://mobe/Mushroom-Run.png<>uid://bj3gd2na5n5k4::::res://mobe/Mushroom-Hit.png<>uid://uysfxs2mgq0r::::res://audio/NPC.mp3
+::res://player/::1734013107
+CharacterSheet.png::CompressedTexture2D::7242310486169773825::1734013032::1734013107::1::::<><>::

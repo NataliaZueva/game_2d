@@ -1,0 +1,12 @@
+res://main.tscn
+res://player.gd
+res://heart.gd
+res://player.tscn
+res://menu.tscn
+res://bg.tscn
+res://mobe/mushroom.tscn
+res://collection/gold_egg.tscn
+res://collection/bomb_egg.tscn
+res://collection/life_egg.tscn
+res://hit_box_player.gd
+res://mobe/mushroom.gd
