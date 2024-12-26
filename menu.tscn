@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://bed37u8uodhyd"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_l6i3y"]
+[ext_resource type="PackedScene" uid="uid://c8ih066j4b65" path="res://bg.tscn" id="2_gqvwe"]
+[ext_resource type="Script" path="res://bg.gd" id="3_1167p"]
+[ext_resource type="AudioStream" uid="uid://cmpy1uydrth4o" path="res://audio/фон.mp3" id="4_ln4cr"]
+[ext_resource type="AudioStream" uid="uid://bg6vdi7hsx7xq" path="res://audio/меню.mp3" id="5_j2o8x"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_l6i3y")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 378.0
+offset_top = 150.0
+offset_right = 800.0
+offset_bottom = 282.0
+theme_override_font_sizes/font_size = 50
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 375.0
+offset_top = 316.0
+offset_right = 797.0
+offset_bottom = 448.0
+theme_override_font_sizes/font_size = 50
+text = "Quit"
+
+[node name="BG" parent="." instance=ExtResource("2_gqvwe")]
+script = ExtResource("3_1167p")
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_ln4cr")
+volume_db = -15.0
+autoplay = true
+
+[node name="buttons" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_j2o8x")
+volume_db = -15.0
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
