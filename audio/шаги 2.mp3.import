@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://tk6l4cax3602"
+path="res://.godot/imported/шаги 2.mp3-9e9b5c68a50ce242c8ace113c47e8413.mp3str"
+
+[deps]
+
+source_file="res://audio/шаги 2.mp3"
+dest_files=["res://.godot/imported/шаги 2.mp3-9e9b5c68a50ce242c8ace113c47e8413.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

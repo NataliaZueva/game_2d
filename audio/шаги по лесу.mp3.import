@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://biiuaguk8qmxc"
+path="res://.godot/imported/шаги по лесу.mp3-b31cc04232a99e7e91f3c0591ce81d25.mp3str"
+
+[deps]
+
+source_file="res://audio/шаги по лесу.mp3"
+dest_files=["res://.godot/imported/шаги по лесу.mp3-b31cc04232a99e7e91f3c0591ce81d25.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
